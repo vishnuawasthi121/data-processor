@@ -1,0 +1,35 @@
+2022-09-17 10:56:12,183 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DataProcessorApplication using Java 15.0.2 on LAPTOP-DMTJRAFI with PID 13256 (D:\Ogive\data-processor\target\classes started by Vishn in D:\Ogive\data-processor)
+2022-09-17 10:56:12,222 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-09-17 10:56:12,274 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-17 10:56:12,275 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-17 10:56:12,732 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-17 10:56:12,779 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2022-09-17 10:56:13,478 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8090 (http)
+2022-09-17 10:56:13,490 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8090"]
+2022-09-17 10:56:13,491 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-09-17 10:56:13,491 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-17 10:56:13,881 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-09-17 10:56:13,882 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1607 ms
+2022-09-17 10:56:14,051 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-17 10:56:14,114 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-09-17 10:56:14,288 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-17 10:56:14,404 WARN com.zaxxer.hikari.HikariConfig [restartedMain] data-processorPool - maxLifetime is less than 30000ms, setting to default 1800000ms.
+2022-09-17 10:56:14,406 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] data-processorPool - Starting...
+2022-09-17 10:56:14,641 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] data-processorPool - Start completed.
+2022-09-17 10:56:14,661 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2022-09-17 10:56:15,384 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-17 10:56:15,392 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-17 10:56:15,722 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-17 10:56:16,007 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-09-17 10:56:16,027 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8090"]
+2022-09-17 10:56:16,056 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8090 (http) with context path ''
+2022-09-17 10:56:16,070 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DataProcessorApplication in 4.202 seconds (JVM running for 5.381)
+2022-09-17 10:56:46,580 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+2022-09-17 10:56:47,294 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Pausing ProtocolHandler ["http-nio-8090"]
+2022-09-17 10:56:47,294 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Stopping service [Tomcat]
+2022-09-17 10:56:47,299 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Stopping ProtocolHandler ["http-nio-8090"]
+2022-09-17 10:56:47,301 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(10)-127.0.0.1] Destroying ProtocolHandler ["http-nio-8090"]
+2022-09-17 10:56:47,304 WARN org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor [RMI TCP Connection(10)-127.0.0.1] Destroy method on bean with name 'appConfig' threw an exception: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'fileSystemWatcher': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2022-09-17 10:56:47,304 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [RMI TCP Connection(10)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-17 10:56:47,306 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] data-processorPool - Shutdown initiated...
+2022-09-17 10:56:47,311 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(10)-127.0.0.1] data-processorPool - Shutdown completed.
